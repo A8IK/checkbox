@@ -53,7 +53,8 @@ class _TodoListScreenState extends State<TodoListScreen> {
             SizedBox(height: 16.0),
         Text(
           'Atikul Islam',
-          style: TextStyle(fontSize: 18, color: Colors.white),
+
+          style: TextStyle(fontSize: 22, color: Colors.white,fontWeight: FontWeight.bold),
         ),
             Text(
               'atikul2585@gmail.com',
@@ -62,7 +63,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
             SizedBox(height: 20.0),
         Text(
           'My Tasks',
-          style: TextStyle(fontSize: 20, color: Colors.white),
+          style: TextStyle(fontSize: 24, color: Colors.white,fontWeight: FontWeight.bold),
         ),
          Text(
               'Total Tasks: ${todos.length}',
@@ -104,7 +105,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
 
         onPressed: () {},
         backgroundColor: Colors.amber[400],
-        child: const Text('click'),
+        child: const Text('+'),
       ),
     );
   }
